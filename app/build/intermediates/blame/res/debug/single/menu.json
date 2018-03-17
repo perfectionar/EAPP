@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "F:\\ishwar\\AndroidTeachers-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\profile_menu.xml",
+        "source": "F:\\ishwar\\AndroidTeachers-master\\app\\src\\main\\res\\menu\\profile_menu.xml"
+    },
+    {
+        "merged": "F:\\ishwar\\AndroidTeachers-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\scheduler_menu.xml",
+        "source": "F:\\ishwar\\AndroidTeachers-master\\app\\src\\main\\res\\menu\\scheduler_menu.xml"
+    },
+    {
+        "merged": "F:\\ishwar\\AndroidTeachers-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\mai_menu.xml",
+        "source": "F:\\ishwar\\AndroidTeachers-master\\app\\src\\main\\res\\menu\\mai_menu.xml"
+    },
+    {
+        "merged": "F:\\ishwar\\AndroidTeachers-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\note_menu.xml",
+        "source": "F:\\ishwar\\AndroidTeachers-master\\app\\src\\main\\res\\menu\\note_menu.xml"
+    }
+]

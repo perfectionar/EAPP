@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.delaroystudios.teacherassistant"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="24" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.delaroystudios.teacherassistant.AppBase"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.delaroystudios.teacherassistant.profile_activity"
+            android:parentActivityName="com.delaroystudios.teacherassistant.AppBase" />
+        <activity
+            android:name="com.delaroystudios.teacherassistant.Student_Registartion"
+            android:parentActivityName="com.delaroystudios.teacherassistant.profile_activity" />
+        <activity
+            android:name="com.delaroystudios.teacherassistant.noteCreate"
+            android:parentActivityName="com.delaroystudios.teacherassistant.noteActivity" />
+        <activity
+            android:name="com.delaroystudios.teacherassistant.attendanceActivity"
+            android:parentActivityName="com.delaroystudios.teacherassistant.AppBase" />
+        <activity
+            android:name="com.delaroystudios.teacherassistant.Result_activity"
+            android:parentActivityName="com.delaroystudios.teacherassistant.cgpa_activity" />
+        <activity
+            android:name="com.delaroystudios.teacherassistant.cgpa_activity"
+            android:parentActivityName="com.delaroystudios.teacherassistant.AppBase" />
+        <activity
+            android:name="com.delaroystudios.teacherassistant.noteActivity"
+            android:parentActivityName="com.delaroystudios.teacherassistant.AppBase" />
+        <activity
+            android:name="com.delaroystudios.teacherassistant.scheduler"
+            android:parentActivityName="com.delaroystudios.teacherassistant.AppBase" />
+        <activity
+            android:name="com.delaroystudios.teacherassistant.make_schedule"
+            android:parentActivityName="com.delaroystudios.teacherassistant.scheduler" />
+        <activity
+            android:name="com.delaroystudios.teacherassistant.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName="com.delaroystudios.teacherassistant.AppBase" />
+        <activity
+            android:name="com.delaroystudios.teacherassistant.About"
+            android:parentActivityName="com.delaroystudios.teacherassistant.AppBase" />
+        <activity
+            android:name="com.delaroystudios.teacherassistant.Edit_Student"
+            android:parentActivityName="com.delaroystudios.teacherassistant.AppBase" />
+    </application>
+
+</manifest>
